@@ -1,0 +1,30 @@
+body {
+  background-color: blanchedalmond;
+}
+
+.grocery-header {
+  text-align: center;
+}
+
+.list-header{
+  padding: 5px;
+}
+
+.list{
+  background-color: #ff781f;
+  padding: px;
+  width: 250px;
+}
+
+h1 {
+  color: blue;
+}
+
+h3 {
+  color: brown;
+  background-color: yellow;
+}
+
+h5 {
+  color: #000000;
+}
