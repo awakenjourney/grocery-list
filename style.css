@@ -6,25 +6,47 @@ body {
   text-align: center;
 }
 
-.list-header{
+.list-header {
+  padding: 5px;
+  text-align: center;
+  border: 3px solid #cea135;
+  width: 100vw;
+  background-color: #cbcbcb;
+}
+
+.list-section {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.item-pictures {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
   padding: 5px;
 }
 
-.list{
-  background-color: #ff781f;
-  padding: px;
+.item-pictures > .image > img {
+  margin: 50px;
+  border: 2px solid red;
+
+}
+
+.list {
+  margin: 5px;
+  padding: 20px;
   width: 250px;
+  border: 2px solid grey;
+  background-color: #cea135;
+
 }
 
 h1 {
   color: blue;
 }
 
-h3 {
-  color: brown;
-  background-color: yellow;
-}
-
-h5 {
-  color: #000000;
+.footer {
+  text-align: center;
+  color:#11112b;
 }
